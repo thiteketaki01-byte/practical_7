@@ -1,0 +1,15 @@
+class VirtualMachine:
+    def __init__(self, name):
+        self.name = name
+
+    def start(self):
+        print(self.name, "VM Started")
+
+    def stop(self):
+        print(self.name, "VM Stopped")
+
+
+vm = VirtualMachine("My VM")
+
+vm.start()
+vm.stop()
